@@ -1,0 +1,60 @@
+*{
+	box-sizing:border-box;
+}
+#header-nav{
+	font-size: 25px;
+	border: 0;
+	background-color: maroon;
+}
+div .navbar-brand{
+	margin-left: 0px;
+	margin-top: 0;
+  	margin-bottom: 30px;
+  	padding: 20px;
+  	padding-left: 0px;
+	
+}
+.navbar-brand span{
+	margin-left: 10px;
+	color: white;
+	text-align: left;
+	font-size: 25px;
+
+}
+
+#title-section{
+	font-size: 1.8em;
+	font-weight: bold;
+
+}
+section{
+	font-family: sans-serif;
+	text-align: justify;
+	margin-top: 15px;
+}
+#menu_items{
+	margin-bottom: 15px;
+	background-color: grey;
+	padding: 5px;
+	margin-left: 15px;
+	margin-right:15px;
+}
+.title-text{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding: 5px;
+}
+#navlist a{
+	text-align: center;
+}
+#nav-list a:hover {
+  background: skyblue;
+  }
+  
+/* For devices with larger screen */
+@media(min-width: 1200px){
+	.navbar-brand span{
+		margin-left: 25px;
+	}
+}
