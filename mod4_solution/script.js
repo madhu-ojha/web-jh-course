@@ -63,6 +63,5 @@ for (var i = 0; i < names.length; i++) {
   } else {
     helloSpeaker.speak(names[i]);
   }
-}
-
+  }
 })();
